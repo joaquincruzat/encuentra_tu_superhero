@@ -5,9 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuentra tu SuperHero</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 </head>
 <body>
-    <script src="assets/javascript.js"></script>
+    <main>
+    <section id="navigation">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/favicon.ico" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            SuperHero
+          </a>
+        </div>
+      </nav>
+    </section>
+    <section id="hero-section">
+        <img src="assets/img/sh1.jpg" alt="">
+    </section>
+    <section id="buscador">
+        <h1>Encuentra tu superhero</h1>
+        <br>
+        <div>
+            <input id="searchSuperhero" type="number" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" id="searchButton" type="submit">Search</button>
+        </div>
+    </section>
+    <section id="grafico">
+        <div class="container">
+            <div class="row">
+        <div id="superheroCard" class="col"></div>
+        <div id="superheroStats" class="col"></div>
+    </div>
+</div>
+
+    </section>
+    
+</main>
+    <script src="assets/js/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script> 
 </body>
-</html>
+</html> 

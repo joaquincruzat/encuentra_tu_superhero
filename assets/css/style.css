@@ -1,0 +1,16 @@
+#hero-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#buscador
+{
+    text-align: center;
+}
+
+#grafico {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
